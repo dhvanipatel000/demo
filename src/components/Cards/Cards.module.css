@@ -1,0 +1,68 @@
+.grid{
+  margin-left: -10px;
+  box-sizing: border-box;
+  display:grid;
+  width:110rem;
+  grid-gap:2rem;
+  grid-template-columns: repeat(auto-fit,minmax(10rem,0.5fr));
+}
+.grid h2{
+  padding: 205px 0;
+  margin-left: 250px;
+  margin-top: 10px;
+  font-size: 2rem;
+  padding: 25px 0;
+  text-align: center;
+}
+.griditem{
+  margin-top: 200px;
+  background-color: white;
+  border-radius: 0.4rem;
+  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.griditem:hover{
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+.cardimg{
+  display: inline;
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+.cardheader{
+  font-size: 2rem;
+  font-weight: 500;
+  color:brown;
+}
+.cardtext{
+  font-size: 1rem;
+  color:black;
+}
+.cardbtn{
+  display: block;
+  width:50%;
+  padding:0.5rem;
+  font-size:1.2rem;
+  color:blueviolet;
+  background-color: bisque;
+  border:none;
+  border-radius: 0.4rem;
+  transition: 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+}
+.cardbtn span{
+  margin-left: 1rem;
+  transition: 0.2s;
+}
+.cardbtn:hover,
+.cardbtn:active{
+  background-color: antiquewhite;
+}
+.cardbtn:hover span,
+.cardbtn:active span{
+  margin-left: 1.5rem;
+}
